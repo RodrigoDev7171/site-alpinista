@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="pt-BR" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adriano Vieira | Alpinista Predial & Soluções em Altura</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- FontAwesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: {
+                        sans: ['Plus Jakarta Sans', 'sans-serif'],
+                    },
+                    colors: {
+                        brand: {
+                            50: '#fffbeed',
+                            100: '#fef3c7',
+                            400: '#fbbf24',
+                            500: '#f59e0b',
+                            600: '#d97706',
+                        }
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+<body class="bg-slate-950 text-slate-100 font-sans antialiased selection:bg-amber-500 selection:text-slate-950 flex flex-col min-h-screen">
+
+    <!-- Header / Navbar -->
+    <header class="sticky top-0 z-40 bg-slate-900/90 backdrop-blur-md border-b border-slate-800/80">
+        <div class="max-w-6xl mx-auto px-4 sm:px-6 py-3.5 flex justify-between items-center">
+            <!-- Brand Logo -->
+            <a href="#" class="flex items-center gap-3 group">
+                <div class="w-10 h-10 rounded-xl bg-gradient-to-br from-amber-400 to-amber-600 flex items-center justify-center text-slate-950 font-black text-xl shadow-lg shadow-amber-500/20 group-hover:scale-105 transition duration-300">
+                    AV
+                </div>
+                <div>
+                    <h1 class="text-base sm:text-lg font-extrabold tracking-tight text-white leading-tight">ADRIANO VIEIRA</h1>
+                    <p class="text-[11px] text-amber-400 font-semibold tracking-wider uppercase">Soluções em Altura</p>
+                </div>
+            </a>
+
+            <!-- Navigation Links & Action Buttons -->
+            <div class="flex items-center gap-2 sm:gap-4">
+                <a href="https://instagram.com/adrianovieira5700" target="_blank" rel="noopener noreferrer" class="hidden md:flex items-center gap-2 text-xs font-semibold bg-slate-800 hover:bg-slate-700 text-slate-200 px-3.5 py-2 rounded-lg border border-slate-700 transition duration-200">
+                    <i class="fab fa-instagram text-pink-500 text-sm"></i>
+                    <span>@adrianovieira5700</span>
+                </a>
+
+                <!-- Immediate WhatsApp Redirect Button -->
+                <a href="https://wa.me/5581989020862?text=Ol%C3%A1%20Adriano,%20gostaria%20de%20solicitar%20um%20or%C3%A7amento%20para%20servi%C3%A7os%20em%20altura!" target="_blank" rel="noopener noreferrer" class="flex items-center gap-2 bg-emerald-500 hover:bg-emerald-400 text-slate-950 font-bold text-xs sm:text-sm px-4 py-2.5 rounded-xl shadow-lg shadow-emerald-500/20 hover:shadow-emerald-500/40 transition duration-300 active:scale-95">
+                    <i class="fab fa-whatsapp text-lg"></i>
+                    <span>Pedir Orçamento</span>
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <main class="flex-grow">
+        <!-- Hero Section -->
+        <section class="relative overflow-hidden pt-12 pb-16 sm:pt-20 sm:pb-24 border-b border-slate-800/60">
+            <!-- Background Glow FX -->
+            <div class="absolute top-1/4 left-1/2 -translate-x-1/2 -translate-y-1/2 w-96 h-96 bg-amber-500/10 rounded-full blur-3xl pointer-events-none"></div>
+            <div class="absolute top-1/3 left-1/3 w-64 h-64 bg-emerald-500/10 rounded-full blur-3xl pointer-events-none"></div>
+
+            <div class="max-w-5xl mx-auto px-4 sm:px-6 text-center relative z-10">
+                <span class="inline-flex items-center gap-2 bg-amber-500/10 text-amber-400 text-xs font-bold px-3.5 py-1.5 rounded-full border border-amber-500/20 mb-6">
+                    <i class="fas fa-shield-halved text-amber-400"></i> Alpinista Profissional Certificado
+                </span>
+
+                <h2 class="text-3xl sm:text-5xl md:text-6xl font-black text-white tracking-tight leading-[1.15] mb-6">
+                    Segurança e Precisão em <br class="hidden sm:inline">
+                    <span class="text-transparent bg-clip-text bg-gradient-to-r from-amber-400 via-amber-300 to-amber-500">Trabalhos em Altura</span>
+                </h2>
+
+                <p class="text-slate-400 max-w-2xl mx-auto text-sm sm:text-lg leading-relaxed mb-8">
+                    Especialista em manutenção, limpeza, reformas e impermeabilização predial com acesso por cordas. Atendimento rápido e orçamento direto via WhatsApp.
+                </p>
+
+                <!-- Hero CTA Buttons -->
+                <div class="flex flex-col sm:flex-row items-center justify-center gap-4">
+                    <a href="https://wa.me/5581989020862?text=Ol%C3%A1%20Adriano!%20Vim%20pelo%20site%20e%20gostaria%20de%20solicitar%20um%20or%C3%A7amento%20para%20meu%20pr%C3%A9dio/im%C3%B3vel." target="_blank" rel="noopener noreferrer" class="w-full sm:w-auto bg-emerald-500 hover:bg-emerald-400 text-slate-950 font-black px-8 py-4 rounded-xl shadow-xl shadow-emerald-500/25 flex items-center justify-center gap-3 transition duration-300 transform hover:-translate-y-0.5">
+                        <i class="fab fa-whatsapp text-xl"></i>
+                        <span>PEDIR ORÇAMENTO AGORA</span>
+                    </a>
+
+                    <a href="https://instagram.com/adrianovieira5700" target="_blank" rel="noopener noreferrer" class="w-full sm:w-auto bg-slate-900 hover:bg-slate-800 text-slate-200 font-bold px-6 py-4 rounded-xl border border-slate-700 flex items-center justify-center gap-3 transition duration-200">
+                        <i class="fab fa-instagram text-pink-500 text-lg"></i>
+                        <span>Ver Trabalhos (@adrianovieira5700)</span>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Services Grid Section -->
+        <section class="max-w-6xl mx-auto px-4 sm:px-6 py-16">
+            <div class="text-center max-w-2xl mx-auto mb-12">
+                <h3 class="text-2xl sm:text-3xl font-extrabold text-white mb-3">Especialidades & Serviços</h3>
+                <p class="text-slate-400 text-sm sm:text-base">Confira as soluções oferecidas para condomínios, edifícios residenciais e comerciais em Pernambuco.</p>
+            </div>
+
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-5">
+                <!-- 1. Pedreiro em Altura -->
+                <div class="bg-slate-900/80 border border-slate-800 rounded-2xl p-6 hover:border-amber-500/40 transition duration-300 flex flex-col justify-between group">
+                    <div>
+                        <div class="w-12 h-12 bg-amber-500/10 rounded-xl flex items-center justify-center text-amber-400 text-xl mb-4 group-hover:scale-110 transition duration-300">
+                            <i class="fas fa-hammer"></i>
+                        </div>
+                        <h4 class="font-bold text-lg text-white mb-2">Pedreiro em Altura</h4>
+                        <p class="text-slate-400 text-xs leading-relaxed mb-6">Reparos estruturais, alvenaria, emboço e acabamentos em fachadas de difícil acesso.</p>
+                    </div>
+                    <a href="https://wa.me/5581989020862?text=Ol%C3%A1%20Adriano,%20gostaria%20de%20um%20or%C3%A7amento%20para%20o%20servi%C3%A7o%20de:%20Pedreiro%20em%20Altura" target="_blank" rel="noopener noreferrer" class="w-full bg-slate-800 hover:bg-emerald-500 hover:text-slate-950 text-slate-200 text-xs font-bold py-3 rounded-xl flex items-center justify-center gap-2 transition duration-200">
+                        <i class="fab fa-whatsapp text-sm"></i>
+                        <span>Pedir Orçamento</span>
+                    </a>
+                </div>
+
+                <!-- 2. Pintura de Fachada -->
+                <div class="bg-slate-900/80 border border-slate-800 rounded-2xl p-6 hover:border-amber-500/40 transition duration-300 flex flex-col justify-between group">
+                    <div>
+                        <div class="w-12 h-12 bg-amber-500/10 rounded-xl flex items-center justify-center text-amber-400 text-xl mb-4 group-hover:scale-110 transition duration-300">
+                            <i class="fas fa-paint-roller"></i>
+                        </div>
+                        <h4 class="font-bold text-lg text-white mb-2">Pintura de Fachada</h4>
+                        <p class="text-slate-400 text-xs leading-relaxed mb-6">Pintura predial de alta durabilidade com tintas de proteção contra sol e chuva.</p>
+                    </div>
+                    <a href="https://wa.me/5581989020862?text=Ol%C3%A1%20Adriano,%20gostaria%20de%20um%20or%C3%A7amento%20para%20o%20servi%C3%A7o%20de:%20Pintura%20de%20Fachada" target="_blank" rel="noopener noreferrer" class="w-full bg-slate-800 hover:bg-emerald-500 hover:text-slate-950 text-slate-200 text-xs font-bold py-3 rounded-xl flex items-center justify-center gap-2 transition duration-200">
+                        <i class="fab fa-whatsapp text-sm"></i>
+                        <span>Pedir Orçamento</span>
+                    </a>
+                </div>
+
+                <!-- 3. Tela de Proteção -->
+                <div class="bg-slate-900/80 border border-slate-800 rounded-2xl p-6 hover:border-amber-500/40 transition duration-300 flex flex-col justify-between group">
+                    <div>
+                        <div class="w-12 h-12 bg-amber-500/10 rounded-xl flex items-center justify-center text-amber-400 text-xl mb-4 group-hover:scale-110 transition duration-300">
+                            <i class="fas fa-border-all"></i>
+                        </div>
+                        <h4 class="font-bold text-lg text-white mb-2">Tela de Proteção</h4>
+                        <p class="text-slate-400 text-xs leading-relaxed mb-6">Instalação e fixação de redes de segurança em janelas, varandas e áreas externas.</p>
+                    </div>
+                    <a href="https://wa.me/5581989020862?text=Ol%C3%A1%20Adriano,%20gostaria%20de%20um%20or%C3%A7amento%20para%20o%20servi%C3%A7o%20de:%20Tela%20de%20Prote%C3%A7%C3%A3o" target="_blank" rel="noopener noreferrer" class="w-full bg-slate-800 hover:bg-emerald-500 hover:text-slate-950 text-slate-200 text-xs font-bold py-3 rounded-xl flex items-center justify-center gap-2 transition duration-200">
+                        <i class="fab fa-whatsapp text-sm"></i>
+                        <span>Pedir Orçamento</span>
+                    </a>
+                </div>
+
+                <!-- 4. Infiltração de Fachada -->
+                <div class="bg-slate-900/80 border border-slate-800 rounded-2xl p-6 hover:border-amber-500/40 transition duration-300 flex flex-col justify-between group">
+                    <div>
+                        <div class="w-12 h-12 bg-amber-500/10 rounded-xl flex items-center justify-center text-amber-400 text-xl mb-4 group-hover:scale-110 transition duration-300">
+                            <i class="fas fa-droplet-slash"></i>
+                        </div>
+                        <h4 class="font-bold text-lg text-white mb-2">Infiltração de Fachada</h4>
+                        <p class="text-slate-400 text-xs leading-relaxed mb-6">Diagnóstico, vedação e estanqueidade de pontos críticos causadores de umidade.</p>
+                    </div>
+                    <a href="https://wa.me/5581989020862?text=Ol%C3%A1%20Adriano,%20gostaria%20de%20um%20or%C3%A7amento%20para%20o%20servi%C3%A7o%20de:%20Infiltra%C3%A7%C3%A3o%20de%20Fachada" target="_blank" rel="noopener noreferrer" class="w-full bg-slate-800 hover:bg-emerald-500 hover:text-slate-950 text-slate-200 text-xs font-bold py-3 rounded-xl flex items-center justify-center gap-2 transition duration-200">
+                        <i class="fab fa-whatsapp text-sm"></i>
+                        <span>Pedir Orçamento</span>
+                    </a>
+                </div>
+
+                <!-- 5. Retirada de Piche -->
+                <div class="bg-slate-900/80 border border-slate-800 rounded-2xl p-6 hover:border-amber-500/40 transition duration-300 flex flex-col justify-between group">
+                    <div>
+                        <div class="w-12 h-12 bg-amber-500/10 rounded-xl flex items-center justify-center text-amber-400 text-xl mb-4 group-hover:scale-110 transition duration-300">
+                            <i class="fas fa-broom"></i>
+                        </div>
+                        <h4 class="font-bold text-lg text-white mb-2">Retirada de Piche</h4>
+                        <p class="text-slate-400 text-xs leading-relaxed mb-6">Remoção técnica de sujidades pesadas, restos de obra e piche acumulado em superfícies.</p>
+                    </div>
+                    <a href="https://wa.me/5581989020862?text=Ol%C3%A1%20Adriano,%20gostaria%20de%20um%20or%C3%A7amento%20para%20o%20servi%C3%A7o%20de:%20Retirada%20de%20Piche" target="_blank" rel="noopener noreferrer" class="w-full bg-slate-800 hover:bg-emerald-500 hover:text-slate-950 text-slate-200 text-xs font-bold py-3 rounded-xl flex items-center justify-center gap-2 transition duration-200">
+                        <i class="fab fa-whatsapp text-sm"></i>
+                        <span>Pedir Orçamento</span>
+                    </a>
+                </div>
+
+                <!-- 6. Lavagem de Fachada -->
+                <div class="bg-slate-900/80 border border-slate-800 rounded-2xl p-6 hover:border-amber-500/40 transition duration-300 flex flex-col justify-between group">
+                    <div>
+                        <div class="w-12 h-12 bg-amber-500/10 rounded-xl flex items-center justify-center text-amber-400 text-xl mb-4 group-hover:scale-110 transition duration-300">
+                            <i class="fas fa-water"></i>
+                        </div>
+                        <h4 class="font-bold text-lg text-white mb-2">Lavagem de Fachada</h4>
+                        <p class="text-slate-400 text-xs leading-relaxed mb-6">Limpeza hidrojateada de alta pressão para pastilhas, vidros e revestimentos.</p>
+                    </div>
+                    <a href="https://wa.me/5581989020862?text=Ol%C3%A1%20Adriano,%20gostaria%20de%20um%20or%C3%A7amento%20para%20o%20servi%C3%A7o%20de:%20Lavagem%20de%20Fachada" target="_blank" rel="noopener noreferrer" class="w-full bg-slate-800 hover:bg-emerald-500 hover:text-slate-950 text-slate-200 text-xs font-bold py-3 rounded-xl flex items-center justify-center gap-2 transition duration-200">
+                        <i class="fab fa-whatsapp text-sm"></i>
+                        <span>Pedir Orçamento</span>
+                    </a>
+                </div>
+
+                <!-- 7. Junta de Dilatação -->
+                <div class="bg-slate-900/80 border border-slate-800 rounded-2xl p-6 hover:border-amber-500/40 transition duration-300 flex flex-col justify-between group">
+                    <div>
+                        <div class="w-12 h-12 bg-amber-500/10 rounded-xl flex items-center justify-center text-amber-400 text-xl mb-4 group-hover:scale-110 transition duration-300">
+                            <i class="fas fa-ruler-combined"></i>
+                        </div>
+                        <h4 class="font-bold text-lg text-white mb-2">Junta de Dilatação</h4>
+                        <p class="text-slate-400 text-xs leading-relaxed mb-6">Tratamento, substituição de selantes e restauração de juntas dilatacionais prediais.</p>
+                    </div>
+                    <a href="https://wa.me/5581989020862?text=Ol%C3%A1%20Adriano,%20gostaria%20de%20um%20or%C3%A7amento%20para%20o%20servi%C3%A7o%20de:%20Junta%20de%20Dilata%C3%A7%C3%A3o" target="_blank" rel="noopener noreferrer" class="w-full bg-slate-800 hover:bg-emerald-500 hover:text-slate-950 text-slate-200 text-xs font-bold py-3 rounded-xl flex items-center justify-center gap-2 transition duration-200">
+                        <i class="fab fa-whatsapp text-sm"></i>
+                        <span>Pedir Orçamento</span>
+                    </a>
+                </div>
+
+                <!-- 8. Impermeabilização de Caixa D'água -->
+                <div class="bg-slate-900/80 border border-slate-800 rounded-2xl p-6 hover:border-amber-500/40 transition duration-300 flex flex-col justify-between group">
+                    <div>
+                        <div class="w-12 h-12 bg-amber-500/10 rounded-xl flex items-center justify-center text-amber-400 text-xl mb-4 group-hover:scale-110 transition duration-300">
+                            <i class="fas fa-faucet-drip"></i>
+                        </div>
+                        <h4 class="font-bold text-lg text-white mb-2">Impermeabilização de Caixa D'água</h4>
+                        <p class="text-slate-400 text-xs leading-relaxed mb-6">Higienização e aplicação de mantas/produtos impermeabilizantes em reservatórios.</p>
+                    </div>
+                    <a href="https://wa.me/5581989020862?text=Ol%C3%A1%20Adriano,%20gostaria%20de%20um%20or%C3%A7amento%20para%20o%20servi%C3%A7o%20de:%20Impermeabiliza%C3%A7%C3%A3o%20de%20Caixa%20D'%C3%A1gua" target="_blank" rel="noopener noreferrer" class="w-full bg-slate-800 hover:bg-emerald-500 hover:text-slate-950 text-slate-200 text-xs font-bold py-3 rounded-xl flex items-center justify-center gap-2 transition duration-200">
+                        <i class="fab fa-whatsapp text-sm"></i>
+                        <span>Pedir Orçamento</span>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Quick Form Section -->
+        <section class="max-w-3xl mx-auto px-4 sm:px-6 py-12 mb-12">
+            <div class="bg-slate-900 border border-slate-800 rounded-3xl p-6 sm:p-10 shadow-2xl relative overflow-hidden">
+                <div class="text-center mb-8">
+                    <h3 class="text-2xl font-bold text-white mb-2">Solicitar Orçamento Personalizado</h3>
+                    <p class="text-slate-400 text-xs sm:text-sm">Preencha os detalhes e receba a resposta direto no seu WhatsApp!</p>
+                </div>
+
+                <form id="quoteForm" onsubmit="sendFormWhatsApp(event)" class="space-y-4">
+                    <div>
+                        <label class="block text-xs font-bold text-slate-300 mb-1.5 uppercase tracking-wider">Seu Nome</label>
+                        <input type="text" id="clientName" required placeholder="Digite seu nome completo" class="w-full bg-slate-950 border border-slate-800 rounded-xl px-4 py-3 text-sm text-slate-100 placeholder-slate-500 focus:outline-none focus:border-amber-500 transition">
+                    </div>
+
+                    <div>
+                        <label class="block text-xs font-bold text-slate-300 mb-1.5 uppercase tracking-wider">Serviço Desejado</label>
+                        <select id="serviceSelect" class="w-full bg-slate-950 border border-slate-800 rounded-xl px-4 py-3 text-sm text-slate-100 focus:outline-none focus:border-amber-500 transition">
+                            <option value="Pedreiro em Altura">Pedreiro em Altura</option>
+                            <option value="Pintura de Fachada">Pintura de Fachada</option>
+                            <option value="Tela de Proteção">Tela de Proteção</option>
+                            <option value="Infiltração de Fachada">Infiltração de Fachada</option>
+                            <option value="Retirada de Piche">Retirada de Piche</option>
+                            <option value="Lavagem de Fachada">Lavagem de Fachada</option>
+                            <option value="Junta de Dilatação">Junta de Dilatação</option>
+                            <option value="Impermeabilização de Caixa D'água">Impermeabilização de Caixa D'água</option>
+                        </select>
+                    </div>
+
+                    <div>
+                        <label class="block text-xs font-bold text-slate-300 mb-1.5 uppercase tracking-wider">Localidade / Cidade</label>
+                        <input type="text" id="clientLocation" placeholder="Ex: Recife, Jaboatão, Olinda..." class="w-full bg-slate-950 border border-slate-800 rounded-xl px-4 py-3 text-sm text-slate-100 placeholder-slate-500 focus:outline-none focus:border-amber-500 transition">
+                    </div>
+
+                    <div>
+                        <label class="block text-xs font-bold text-slate-300 mb-1.5 uppercase tracking-wider">Observações / Detalhes</label>
+                        <textarea id="clientDetails" rows="3" placeholder="Descreva a quantidade de andares ou detalhes do serviço..." class="w-full bg-slate-950 border border-slate-800 rounded-xl px-4 py-3 text-sm text-slate-100 placeholder-slate-500 focus:outline-none focus:border-amber-500 transition"></textarea>
+                    </div>
+
+                    <button type="submit" class="w-full bg-emerald-500 hover:bg-emerald-400 text-slate-950 font-black py-4 rounded-xl shadow-lg shadow-emerald-500/20 flex items-center justify-center gap-3 transition duration-300">
+                        <i class="fab fa-whatsapp text-xl"></i>
+                        <span>ENVIAR PARA O WHATSAPP</span>
+                    </button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-slate-900 border-t border-slate-800 py-10 text-center text-xs text-slate-500">
+        <div class="max-w-6xl mx-auto px-4">
+            <p class="font-extrabold text-slate-200 text-base mb-1">ADRIANO VIEIRA ALPINISTA</p>
+            <p class="text-amber-400 font-medium mb-4">Soluções em Altura • Pernambuco</p>
+            <div class="flex justify-center gap-6 text-sm mb-6">
+                <a href="https://wa.me/5581989020862" target="_blank" class="hover:text-emerald-400 transition"><i class="fab fa-whatsapp"></i> (81) 98902-0862</a>
+                <a href="https://instagram.com/adrianovieira5700" target="_blank" class="hover:text-pink-400 transition"><i class="fab fa-instagram"></i> @adrianovieira5700</a>
+            </div>
+            <p>© 2026 Adriano Vieira Alpinista. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+
+    <!-- Floating WhatsApp Action Button -->
+    <a href="https://wa.me/5581989020862?text=Ol%C3%A1%20Adriano,%20gostaria%20de%20pedir%20um%20or%C3%A7amento!" target="_blank" rel="noopener noreferrer" class="fixed bottom-6 right-6 z-50 bg-emerald-500 text-slate-950 p-4 rounded-full shadow-2xl hover:scale-110 active:scale-95 transition duration-300 flex items-center justify-center">
+        <i class="fab fa-whatsapp text-3xl"></i>
+    </a>
+
+    <!-- JavaScript function to build WhatsApp query -->
+    <script>
+        function sendFormWhatsApp(event) {
+            event.preventDefault();
+            const name = document.getElementById('clientName').value;
+            const service = document.getElementById('serviceSelect').value;
+            const location = document.getElementById('clientLocation').value;
+            const details = document.getElementById('clientDetails').value;
+
+            let message = `Olá Adriano! Gostaria de um orçamento.\n\n`;
+            message += `*Nome:* ${name}\n`;
+            message += `*Serviço:* ${service}\n`;
+            if (location) message += `*Local:* ${location}\n`;
+            if (details) message += `*Detalhes:* ${details}\n`;
+
+            const encodedMessage = encodeURIComponent(message);
+            window.open(`https://wa.me/5581989020862?text=${encodedMessage}`, '_blank');
+        }
+    </script>
+</body>
+</html>
